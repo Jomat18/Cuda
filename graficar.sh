@@ -26,5 +26,4 @@ while [  $LINES -lt $MAXLINES ]; do
     let LINES=LINES+INCREMENT
 done    
 
-#source /home/joma/anaconda3/bin/activate tensorflow
-#python grafico.py
+python grafico.py

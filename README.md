@@ -354,12 +354,6 @@ for linea in f:
 	
 f.close()
 
-'''
-x = [100, 200, 300, 400, 500, 600, 700]
-y1 = [0.436288, 0.900864, 1.802080, 2.902880, 5.539296, 8.498368, 13.178368] 
-y2 = [0.559168, 0.665888, 1.138272, 1.811584, 2.642496, 3.699712, 5.389696] 
-'''
-
 plt.title("Memoria Global - Memoria Compartida") 
 plt.plot(size_matrix, m_global,'-b', label='GPU Global memory', marker='o', linestyle='--', fillstyle='none') 
 plt.plot(size_matrix, m_shared,'-r', label='GPU Shared memory', marker='o', linestyle='--', fillstyle='none') 
